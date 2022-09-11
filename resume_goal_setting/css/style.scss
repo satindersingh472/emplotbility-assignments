@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap");
+$simple-fonts: "Roboto Slab", serif;
+$mono-fonts: "Space Mono", monospace;
+$heading-color: #3f30fd;
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  display: grid;
+  place-items: center;
+  width: 50vw;
+  margin: auto;
+}
+#top_level {
+  font-family: $simple-fonts;
+  display: grid;
+  justify-items: start;
+  gap: 10px;
+  #name {
+    display: grid;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $heading-color;
+  }
+  #field {
+    font-family: $mono-fonts;
+    font-size: 1rem;
+  }
+  #contact_information {
+    display: grid;
+    grid-auto-flow: column;
+    place-items: center;
+    gap: 20px;
+    .content_item {
+      display: grid;
+      place-items: center;
+      grid-template-columns: 1fr 6fr;
+      min-width: 10px;
+      .icon {
+        justify-self: start;
+        height: 15px;
+        width: 15px;
+        padding: 0px 2px 0px 0px;
+      }
+      .contact_info {
+        font-family: $mono-fonts;
+        font-size: 0.5rem;
+      }
+    }
+  }
+  #objective {
+    display: grid;
+    gap: 10px;
+    h2 {
+      color: $heading-color;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  #skills_education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    gap: 10px;
+    #all_skills {
+      #heading_skills {
+        h3 {
+          color: $heading-color;
+        }
+      }
+      #skills {
+        display: grid;
+        gap: 3px;
+        .content_skills {
+          display: grid;
+          gap: 2px;
+          .important_information {
+            font-size: 0.8rem;
+          }
+        }
+      }
+    }
+    #all_education{
+        #heading_education{
+            h3{
+                color: $heading-color;
+            }
+        }
+        #education{
+            display: grid;
+            gap: 3px;
+            .content_education{
+                display: grid;
+                gap: 2px;
+                .when_where{
+                    font-size: .5rem;
+                }
+                .important_information{
+                    font-size: .8rem;
+                }
+            }
+        }
+    }
+  }
+}

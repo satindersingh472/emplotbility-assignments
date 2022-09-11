@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  width: 50vw;
+  margin: auto;
+}
+
+#top_level {
+  font-family: "Roboto Slab", serif;
+  display: grid;
+  justify-items: start;
+  gap: 10px;
+}
+#top_level #name {
+  display: grid;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3f30fd;
+}
+#top_level #field {
+  font-family: "Space Mono", monospace;
+  font-size: 1rem;
+}
+#top_level #contact_information {
+  display: grid;
+  grid-auto-flow: column;
+  place-items: center;
+  gap: 20px;
+}
+#top_level #contact_information .content_item {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 6fr;
+  min-width: 10px;
+}
+#top_level #contact_information .content_item .icon {
+  justify-self: start;
+  height: 15px;
+  width: 15px;
+  padding: 0px 2px 0px 0px;
+}
+#top_level #contact_information .content_item .contact_info {
+  font-family: "Space Mono", monospace;
+  font-size: 0.5rem;
+}
+#top_level #objective {
+  display: grid;
+  gap: 10px;
+}
+#top_level #objective h2 {
+  color: #3f30fd;
+}
+#top_level #objective p {
+  font-size: 0.8rem;
+}
+#top_level #skills_education {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  gap: 10px;
+}
+#top_level #skills_education #all_skills #heading_skills h3 {
+  color: #3f30fd;
+}
+#top_level #skills_education #all_skills #skills {
+  display: grid;
+  gap: 3px;
+}
+#top_level #skills_education #all_skills #skills .content_skills {
+  display: grid;
+  gap: 2px;
+}
+#top_level #skills_education #all_skills #skills .content_skills .important_information {
+  font-size: 0.8rem;
+}
+#top_level #skills_education #all_education #heading_education h3 {
+  color: #3f30fd;
+}
+#top_level #skills_education #all_education #education {
+  display: grid;
+  gap: 3px;
+}
+#top_level #skills_education #all_education #education .content_education {
+  display: grid;
+  gap: 2px;
+}
+#top_level #skills_education #all_education #education .content_education .when_where {
+  font-size: 0.5rem;
+}
+#top_level #skills_education #all_education #education .content_education .important_information {
+  font-size: 0.8rem;
+}/*# sourceMappingURL=style.css.map */
