@@ -19,7 +19,7 @@ body {
 }
 #top_level #name {
   display: grid;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: #3f30fd;
 }
@@ -57,7 +57,7 @@ body {
   color: #3f30fd;
 }
 #top_level #objective p {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 #top_level #skills_education {
   display: grid;
@@ -77,7 +77,7 @@ body {
   gap: 2px;
 }
 #top_level #skills_education #all_skills #skills .content_skills .important_information {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 #top_level #skills_education #all_education #heading_education h3 {
   color: #3f30fd;
@@ -94,5 +94,5 @@ body {
   font-size: 0.5rem;
 }
 #top_level #skills_education #all_education #education .content_education .important_information {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }/*# sourceMappingURL=style.css.map */
